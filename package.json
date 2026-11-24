@@ -1,0 +1,13 @@
+{
+  "name": "tcp-metrics-reconstruction-validator",
+  "version": "0.1.0",
+  "description": "从稀疏丢包/重传监控事件重建 TCP RTT、重传率与连接阶段指标",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  }
+}
